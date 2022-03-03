@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ex02-2.c" />
     <ClCompile Include="HelloComment.c" />
+    <ClCompile Include="PrintOne.c" />
+    <ClCompile Include="PrintTwo.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
