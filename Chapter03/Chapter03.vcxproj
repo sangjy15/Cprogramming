@@ -139,6 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="OperatorOne.c" />
+    <ClCompile Include="OperatorThree.c" />
+    <ClCompile Include="OperatorTwo.c" />
+    <ClCompile Include="SimpleAddTwo.c" />
     <ClCompile Include="VarDeclAndInit.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
