@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int operator4(void) {
 	int num1 = 12;
 	int num2 = 12;
 
