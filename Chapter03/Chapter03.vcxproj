@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="OperatorFour.c" />
     <ClCompile Include="OperatorOne.c" />
     <ClCompile Include="OperatorThree.c" />
     <ClCompile Include="OperatorTwo.c" />
