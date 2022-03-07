@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int comma(void) {
 	int num1 = 1, num2 = 2;
 	printf("Hello "), printf("world! \n");
 	num1++, num2++;

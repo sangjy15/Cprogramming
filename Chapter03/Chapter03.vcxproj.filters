@@ -45,5 +45,11 @@
     <ClCompile Include="CommaOp.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SimpleAddThree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleAddFour.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

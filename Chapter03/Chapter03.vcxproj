@@ -147,6 +147,8 @@
     <ClCompile Include="OperatorSix.c" />
     <ClCompile Include="OperatorThree.c" />
     <ClCompile Include="OperatorTwo.c" />
+    <ClCompile Include="SimpleAddFour.c" />
+    <ClCompile Include="SimpleAddThree.c" />
     <ClCompile Include="SimpleAddTwo.c" />
     <ClCompile Include="VarDeclAndInit.c" />
   </ItemGroup>
