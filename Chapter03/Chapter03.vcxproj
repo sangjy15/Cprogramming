@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CommaOp.c" />
+    <ClCompile Include="ex03.c" />
     <ClCompile Include="OperatorFive.c" />
     <ClCompile Include="OperatorFour.c" />
     <ClCompile Include="OperatorOne.c" />

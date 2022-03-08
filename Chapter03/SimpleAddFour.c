@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable : 6031)
 #pragma warning(disable : 4996)
-int main(void) {
+int simpleadd4(void) {
 	int result;
 	int num1, num2, num3;
 
