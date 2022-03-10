@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int notion(void) {
 	int num1 = 0xA7, num2 = 0x43;
 	int num3 = 032, num4 = 024;
 
