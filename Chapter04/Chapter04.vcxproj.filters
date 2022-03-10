@@ -18,5 +18,11 @@
     <ClCompile Include="Notion.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="FloatError.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BitAndOperation.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
