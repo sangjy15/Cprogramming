@@ -140,6 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BitAndOperation.c" />
+    <ClCompile Include="BitLeftShift.c" />
+    <ClCompile Include="BitNotOperation.c" />
+    <ClCompile Include="BitOrOperation.c" />
+    <ClCompile Include="BitRightShift.c" />
+    <ClCompile Include="BitXorOperation.c" />
     <ClCompile Include="FloatError.c" />
     <ClCompile Include="Notion.c" />
   </ItemGroup>
