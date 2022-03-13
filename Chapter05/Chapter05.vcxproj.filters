@@ -18,5 +18,14 @@
     <ClCompile Include="SizeOfOperator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CharShortBaseAdd.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleArea.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HowChar.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

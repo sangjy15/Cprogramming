@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int sizeoperation(void) {
 	char ch = 9;
 	int inum = 1052;
 	double dnum = 3.1415;
