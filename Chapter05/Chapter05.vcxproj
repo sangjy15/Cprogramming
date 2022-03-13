@@ -139,6 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CharShortBaseAdd.c" />
+    <ClCompile Include="CircleArea.c" />
+    <ClCompile Include="HowChar.c" />
     <ClCompile Include="SizeOfOperator.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
