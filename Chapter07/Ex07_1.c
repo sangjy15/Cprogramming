@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable : 6031)
 #pragma warning(disable : 4996)
-int main(void) {
+int ex07_1(void) {
 	// ex01
 	/*
 	int num1;
@@ -34,7 +34,7 @@ int main(void) {
 		result += num;
 	}
 	printf("총 합 : %d", result);
-	*/
+	
 	// ex04
 	int num;
 	int i = 9;
@@ -44,5 +44,22 @@ int main(void) {
 		printf("%d x %d = %d \n", num, i, num * i);
 		i--;
 	}
+	*/
+	// ex05
+	// 1. 몇 개의 정수를 입력할지 사용자에게 묻고, 그 수만큼 입력 받음
+	// 2. 평균 값은 소수점 이하까지 계산
+	int num;
+	int i = 0;
+	int sum = 0;
+	double result;
+	printf("몇 개의 정수를 입력하시겠습니까? \n");
+	scanf("%d", &num);
+	while (i < num) {
+		scanf("%d", &sum);
+		sum += sum;
+		i++;
+	}
+	result = sum / num;
+	printf("입력 값의 평균 : %f", result);
 	return 0;
 }
