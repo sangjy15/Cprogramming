@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable : 6031)
 #pragma warning(disable : 4996)
-int main(void) {
+int ex07_2(void) {
 	// ex01
 	/*
 	int num, cnt = 0, result = 0;
