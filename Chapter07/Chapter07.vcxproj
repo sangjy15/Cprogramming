@@ -142,6 +142,7 @@
     <ClCompile Include="Ex07_1.c" />
     <ClCompile Include="Ex07_2.c" />
     <ClCompile Include="Ex07_3.c" />
+    <ClCompile Include="Ex07_4.c" />
     <ClCompile Include="UsefulDoWhile.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
