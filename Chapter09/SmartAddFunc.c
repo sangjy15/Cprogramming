@@ -21,7 +21,7 @@ void HowToHowThisProg(void) { // 인자전달 x, 반환값 x
 	printf("자! 그럼 두 개의 정수를 입력하세요 \n");
 }
 
-int main(void) {
+int main2(void) {
 	int result, num1, num2;
 	HowToHowThisProg();
 	num1 = ReadNum();
