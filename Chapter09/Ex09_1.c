@@ -21,20 +21,36 @@ double FahToCel(double fah) {
 	return (fah - 32) / 1.8;
 }
 
+//ex03
+int pivonachi(int num) {
+	int i, result;
+	for (i = 0; i < num; i++) {
+	}
+}
+
 int main(void) {
 	/*
 	int num1, num2, num3;
 	printf("¼¼ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");
 	scanf("%d %d %d", &num1, &num2, &num3);
 	printf("°¡Àå Å« ¼ö : %d", maxNum(num1, num2, num3));
-	*/
-	int tem;
-	printf("¼·¾¾ ¿Âµµ¸¦ ÀÔ·Â ÇÏ¼¼¿ä");
-	scanf("%lf", &tem);
-	printf("¹ÝÈ¯ µÈ È­¾¾ ¿Âµµ : %f \n", CelToFah(tem));
+	
+	int index;
+	double temp;
+	printf("1. ¼·¾¾¸¦ È­¾¾·Î, 2.È­¾¾¸¦ ¼·¾¾·Î \n");
+	scanf("%d", &index);
 
-	printf("È­¾¾ ¿Âµµ¸¦ ÀÔ·Â ÇÏ¼¼¿ä");
-	scanf("%lf", &tem);
-	printf("¹ÝÈ¯ µÈ ¼·¾¾ ¿Âµµ : %lf", FahToCel(tem));
+	if (index == 1) {
+		printf("¼·¾¾¿Âµµ ÀÔ·ÂÇÏ¼¼¿ä. \n");
+		scanf("%lf", &temp);
+		printf("¹ÝÈ¯ µÈ È­¾¾ ¿Âµµ : %f \n", CelToFah(temp));
+	}
+	else {
+		printf("È­¾¾ ¿Âµµ¸¦ ÀÔ·Â ÇÏ¼¼¿ä");
+		scanf("%lf", &temp);
+		printf("¹ÝÈ¯ µÈ ¼·¾¾ ¿Âµµ : %lf", FahToCel(temp));
+	}
+	*/
+	
 	return 0;
 }
