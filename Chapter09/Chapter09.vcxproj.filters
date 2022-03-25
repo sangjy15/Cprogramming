@@ -21,5 +21,14 @@
     <ClCompile Include="SmartAddFunc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="NumCompare.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AbsoCompare.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex09_1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -139,6 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbsoCompare.c" />
+    <ClCompile Include="Ex09_1.c" />
+    <ClCompile Include="NumCompare.c" />
     <ClCompile Include="SimpleAddFunc.c" />
     <ClCompile Include="SmartAddFunc.c" />
   </ItemGroup>
