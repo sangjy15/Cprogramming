@@ -140,10 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AbsoCompare.c" />
+    <ClCompile Include="AnotherLocalVal.c" />
     <ClCompile Include="Ex09_1.c" />
+    <ClCompile Include="GlobalVariable.c" />
+    <ClCompile Include="LocalValHideVal.c" />
+    <ClCompile Include="LocalVariable.c" />
     <ClCompile Include="NumCompare.c" />
     <ClCompile Include="SimpleAddFunc.c" />
     <ClCompile Include="SmartAddFunc.c" />
+    <ClCompile Include="StaticLocalVariable.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
