@@ -146,6 +146,8 @@
     <ClCompile Include="LocalValHideVal.c" />
     <ClCompile Include="LocalVariable.c" />
     <ClCompile Include="NumCompare.c" />
+    <ClCompile Include="RecursiveFactorial.c" />
+    <ClCompile Include="RecursiveFunc.c" />
     <ClCompile Include="SimpleAddFunc.c" />
     <ClCompile Include="SmartAddFunc.c" />
     <ClCompile Include="StaticLocalVariable.c" />

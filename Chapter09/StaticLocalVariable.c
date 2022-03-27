@@ -7,7 +7,7 @@ void SimpleFunc(void) {
 	printf("static: %d, local: %d \n", num1, num2);
 }
 
-int main(void) {
+int staticVar(void) {
 	int i;
 	for (i = 0; i < 3; i++) {
 		SimpleFunc();
