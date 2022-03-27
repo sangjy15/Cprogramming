@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable : 6031)
 #pragma warning(disable : 4996)
-int Add(int num1, int num2) { // 인자전달 ㅇ, 반환 값 ㅇ
+int Add2(int num1, int num2) { // 인자전달 ㅇ, 반환 값 ㅇ
 	return num1 + num2;
 }
 
@@ -26,7 +26,7 @@ int main2(void) {
 	HowToHowThisProg();
 	num1 = ReadNum();
 	num2 = ReadNum();
-	result = Add(num1, num2);
+	result = Add2(num1, num2);
 	ShowAddResult(result);
 	return 0;
 }

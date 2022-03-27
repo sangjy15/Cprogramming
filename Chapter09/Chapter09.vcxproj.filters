@@ -30,5 +30,26 @@
     <ClCompile Include="Ex09_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LocalVariable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AnotherLocalVal.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalValHideVal.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVariable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticLocalVariable.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveFunc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveFactorial.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
