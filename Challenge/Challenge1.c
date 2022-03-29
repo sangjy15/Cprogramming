@@ -31,9 +31,31 @@ void GetGooGooDan() {
 		CompareNum(num1, num2);
 }
 
+// 06
+void TransformTime() {
+	int time, hour = 0, min = 0, sec = 0;
+	printf("ÃÊ(second) ÀÔ·Â : ");
+	scanf("%d", &time);
+	while (time > 0) {
+		if (time/3600 >= 1) {
+			hour = time / 3600;
+			time -= 3600;
+		}
+		else if (time/60 >= 1) {
+			min = time / 60;
+			time -= 60;
+		}
+		else {
+			sec = time;
+			return;
+		}
+	}
+	printf("h: %d, m: %d, s: %d", hour, min, sec);
+}
 
 int main(void) {
-	Chanllenge01();
-	GetGooGooDan();
+	// Chanllenge01();
+	// GetGooGooDan();
+	TransformTime();
 	return 0;
 }
