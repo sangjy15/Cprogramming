@@ -39,15 +39,18 @@ void TransformTime() {
 	while (time > 0) {
 		if (time/3600 >= 1) {
 			hour = time / 3600;
-			time -= 3600;
+			time = time - (3600 * hour);
+			printf("시간: %d \n", hour);
 		}
 		else if (time/60 >= 1) {
 			min = time / 60;
-			time -= 60;
+			time = time - (60 * min);
+			printf("분: %d \n", min);
 		}
 		else {
 			sec = time;
-			return;
+			printf("초: %d \n", sec);
+			time = 0;
 		}
 	}
 	printf("h: %d, m: %d, s: %d", hour, min, sec);
