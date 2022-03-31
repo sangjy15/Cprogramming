@@ -37,8 +37,8 @@ int main(void) {
 		printf("정수를 입력하세요. \n");
 		scanf("%d", &arr[i]);
 	}
-	printf("입력된 정수 중에서 최대값. \n", Max(arr));
-	printf("입력된 정수 중에서 최소값. \n", Min(arr));
-	printf("입력된 정수의 총 합. \n", Sum(arr));
+	printf("입력된 정수 중에서 최대값: %d \n", Max(arr));
+	printf("입력된 정수 중에서 최소값: %d \n", Min(arr));
+	printf("입력된 정수의 총 합: %d \n", Sum(arr));
 	return 0;
 }
