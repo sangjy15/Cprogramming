@@ -56,9 +56,24 @@ void TransformTime() {
 	printf("h: %d, m: %d, s: %d", hour, min, sec);
 }
 
+// 08
+int recursive(int num) {
+	if (num == 0) {
+		return 1;
+	}
+	else {
+		num--;
+		return 2 * recursive(num);
+	}
+}
+
 int main(void) {
 	// Chanllenge01();
 	// GetGooGooDan();
-	TransformTime();
+	// TransformTime();
+	int num;
+	printf("정수를 입력하세요, ");
+	scanf("%d", &num);
+	printf("2의 %d 제곱 : %d ", num, recursive(num));
 	return 0;
 }
