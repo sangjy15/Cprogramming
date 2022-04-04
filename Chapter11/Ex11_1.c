@@ -28,9 +28,10 @@ int Sum(int arr[]) {
 	}
 	return sum;
 }
-int main(void) {
+int example(void) {
 	
 	// ex01
+	/*
 	int arr[5], i;
 
 	for (i = 0; i < 5; i++) {
@@ -40,5 +41,12 @@ int main(void) {
 	printf("입력된 정수 중에서 최대값: %d \n", Max(arr));
 	printf("입력된 정수 중에서 최소값: %d \n", Min(arr));
 	printf("입력된 정수의 총 합: %d \n", Sum(arr));
+	*/
+	// ex02
+	char arr[] = { "Good time" };
+	int i;
+	for (i = 0; i < sizeof(arr); i++) {
+		printf("%c \n", arr[i]);
+	}
 	return 0;
 }
