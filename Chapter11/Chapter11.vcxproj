@@ -142,6 +142,7 @@
     <ClCompile Include="ArrayAccess.c" />
     <ClCompile Include="ArrayString.c" />
     <ClCompile Include="Ex11_1.c" />
+    <ClCompile Include="Ex11_2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

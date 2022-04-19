@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int arraystring(void) {
 	char str[] = "Good morning!";
 	printf("배열 str의 크기: %d \n", sizeof(str));
 	printf("널 문자 문자형 출력: %c \n", str[13]);
