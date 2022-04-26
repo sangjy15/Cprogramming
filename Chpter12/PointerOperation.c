@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int pointer(void) {
 	int num1 = 100, num2 = 100;
 	int* pnum;
 
