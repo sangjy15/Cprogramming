@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int operation(void) {
 	int arr1[3] = { 1,2, 3 };
 	double arr2[3] = { 1.1,2.2, 3.3 };
 	

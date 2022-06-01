@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayNamelsPointer.c" />
     <ClCompile Include="ArrayNamePointerOperation.c" />
     <ClCompile Include="ArrayNameType.c" />
   </ItemGroup>
